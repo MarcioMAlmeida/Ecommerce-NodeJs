@@ -1,0 +1,41 @@
+yarn init -y
+
+yarn add typescript -D
+
+yarn tsc --init // alterar "strict": false
+
+yarn add express
+
+yarn add @types/express -D
+
+yarn add ts-node-dev -D // no package.json, criar o script "dev": "ts-node-dev src/server.ts"
+
+yarn dev
+
+yarn add typeorm reclect-metadata sqlite3 // import "reflect-metadata"
+
+criar ormconfig.json
+
+yarn typeorm migration:create -n Create...
+
+yarn typeorm migration:run
+
+tsconfig "experimentalDecarators": desconmentar, "emitDecoratorMetadata" tbm, strictPropertyInitialization: false
+
+yarn add uuid
+
+yarn add @types/uuid -D
+
+yarn add express-async-errors
+
+yarn add jsonwebtoken 
+
+yarn add @types/jsonwebtoken -D
+
+yarn add bcryptjs
+
+yarn add @types/bcryptjs -D
+
+yarn add class-transformer
+
+yarn add cors
