@@ -12,7 +12,7 @@ yarn add ts-node-dev -D // no package.json, criar o script "dev": "ts-node-dev s
 
 yarn dev
 
-yarn add typeorm reclect-metadata sqlite3 // import "reflect-metadata"
+yarn add typeorm reflect-metadata sqlite3 // import "reflect-metadata"
 
 criar ormconfig.json
 
