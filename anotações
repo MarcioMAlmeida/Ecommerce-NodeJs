@@ -14,7 +14,9 @@ yarn dev
 
 yarn add typeorm reflect-metadata sqlite3 // import "reflect-metadata"
 
-criar ormconfig.json
+criar ormconfig.json "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+
+no package.json, criar o script 
 
 yarn typeorm migration:create -n Create...
 
