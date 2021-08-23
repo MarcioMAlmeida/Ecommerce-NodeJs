@@ -6,9 +6,9 @@ class ListProductController {
     async handle(request: Request, response: Response) {
         const listProductService = new ListProductService();
 
-        const tags = await listProductService.execute();
+        const products = await listProductService.execute();
 
-        return response.json(tags);
+        return response.json(products);
     }
 }
 

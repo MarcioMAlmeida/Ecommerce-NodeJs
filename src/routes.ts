@@ -10,7 +10,7 @@ import { ListUserController } from "./controllers/ListUserController";
 const router = Router();
 
 const createProductController = new CreateProductController();
-const listProductController = new CreateProductController();
+const listProductController = new ListProductController();
 
 const createUserController = new CreateUserController();
 const listUserController = new ListUserController();
